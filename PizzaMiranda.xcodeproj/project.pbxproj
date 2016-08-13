@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5101B3D11D57EBFD008B07D6 /* Vista2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5101B3D01D57EBFD008B07D6 /* Vista2.swift */; };
+		5101B3D31D583A5D008B07D6 /* Vista3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5101B3D21D583A5D008B07D6 /* Vista3.swift */; };
+		5101B3D51D58D037008B07D6 /* VistaMapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5101B3D41D58D037008B07D6 /* VistaMapa.swift */; };
+		5101B3DC1D58DA8A008B07D6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5101B3DB1D58DA8A008B07D6 /* MapKit.framework */; };
+		5101B3DE1D58EF27008B07D6 /* Vista4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5101B3DD1D58EF27008B07D6 /* Vista4.swift */; };
 		518749071D54F28A007B619C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518749061D54F28A007B619C /* AppDelegate.swift */; };
 		518749091D54F28A007B619C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518749081D54F28A007B619C /* ViewController.swift */; };
 		5187490C1D54F28A007B619C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5187490A1D54F28A007B619C /* Main.storyboard */; };
 		5187490E1D54F28A007B619C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5187490D1D54F28A007B619C /* Assets.xcassets */; };
 		518749111D54F28A007B619C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5187490F1D54F28A007B619C /* LaunchScreen.storyboard */; };
+		5187491A1D54FB1B007B619C /* logoleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 518749191D54FB1B007B619C /* logoleft.png */; };
+		5187491C1D54FE77007B619C /* Fondo inicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 5187491B1D54FE77007B619C /* Fondo inicio.png */; };
+		51B1FF221D5A2455009311DF /* VistaQuejas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B1FF211D5A2455009311DF /* VistaQuejas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5101B3D01D57EBFD008B07D6 /* Vista2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista2.swift; sourceTree = "<group>"; };
+		5101B3D21D583A5D008B07D6 /* Vista3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista3.swift; sourceTree = "<group>"; };
+		5101B3D41D58D037008B07D6 /* VistaMapa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaMapa.swift; sourceTree = "<group>"; };
+		5101B3DB1D58DA8A008B07D6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5101B3DD1D58EF27008B07D6 /* Vista4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista4.swift; sourceTree = "<group>"; };
 		518749031D54F28A007B619C /* PizzaMiranda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaMiranda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		518749061D54F28A007B619C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		518749081D54F28A007B619C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,9 @@
 		5187490D1D54F28A007B619C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		518749101D54F28A007B619C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		518749121D54F28A007B619C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518749191D54FB1B007B619C /* logoleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoleft.png; sourceTree = "<group>"; };
+		5187491B1D54FE77007B619C /* Fondo inicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fondo inicio.png"; sourceTree = "<group>"; };
+		51B1FF211D5A2455009311DF /* VistaQuejas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaQuejas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5101B3DC1D58DA8A008B07D6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +55,7 @@
 		518748FA1D54F28A007B619C = {
 			isa = PBXGroup;
 			children = (
+				5101B3DB1D58DA8A008B07D6 /* MapKit.framework */,
 				518749051D54F28A007B619C /* PizzaMiranda */,
 				518749041D54F28A007B619C /* Products */,
 			);
@@ -54,14 +72,29 @@
 		518749051D54F28A007B619C /* PizzaMiranda */ = {
 			isa = PBXGroup;
 			children = (
+				518749181D54FAFE007B619C /* Imagenes */,
 				518749061D54F28A007B619C /* AppDelegate.swift */,
 				518749081D54F28A007B619C /* ViewController.swift */,
 				5187490A1D54F28A007B619C /* Main.storyboard */,
+				51B1FF211D5A2455009311DF /* VistaQuejas.swift */,
+				5101B3DD1D58EF27008B07D6 /* Vista4.swift */,
+				5101B3D41D58D037008B07D6 /* VistaMapa.swift */,
+				5101B3D21D583A5D008B07D6 /* Vista3.swift */,
+				5101B3D01D57EBFD008B07D6 /* Vista2.swift */,
 				5187490D1D54F28A007B619C /* Assets.xcassets */,
 				5187490F1D54F28A007B619C /* LaunchScreen.storyboard */,
 				518749121D54F28A007B619C /* Info.plist */,
 			);
 			path = PizzaMiranda;
+			sourceTree = "<group>";
+		};
+		518749181D54FAFE007B619C /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				5187491B1D54FE77007B619C /* Fondo inicio.png */,
+				518749191D54FB1B007B619C /* logoleft.png */,
+			);
+			name = Imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +159,8 @@
 				518749111D54F28A007B619C /* LaunchScreen.storyboard in Resources */,
 				5187490E1D54F28A007B619C /* Assets.xcassets in Resources */,
 				5187490C1D54F28A007B619C /* Main.storyboard in Resources */,
+				5187491A1D54FB1B007B619C /* logoleft.png in Resources */,
+				5187491C1D54FE77007B619C /* Fondo inicio.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5101B3D51D58D037008B07D6 /* VistaMapa.swift in Sources */,
 				518749091D54F28A007B619C /* ViewController.swift in Sources */,
+				5101B3DE1D58EF27008B07D6 /* Vista4.swift in Sources */,
+				5101B3D31D583A5D008B07D6 /* Vista3.swift in Sources */,
 				518749071D54F28A007B619C /* AppDelegate.swift in Sources */,
+				51B1FF221D5A2455009311DF /* VistaQuejas.swift in Sources */,
+				5101B3D11D57EBFD008B07D6 /* Vista2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +290,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PizzaMiranda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ozz.pizzaMiranda.PizzaMiranda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -261,10 +305,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PizzaMiranda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ozz.pizzaMiranda.PizzaMiranda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -287,6 +335,7 @@
 				518749171D54F28A007B619C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
